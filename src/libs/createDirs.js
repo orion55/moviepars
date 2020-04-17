@@ -1,12 +1,8 @@
 const fs = require('fs-extra');
 
-const createDirs = async (arrTmp, arrConst) => {
+const createDirs = async (arrTmp) => {
   if (arrTmp.length > 0) {
     arrTmp.forEach((element) => fs.emptyDir(element));
-  }
-
-  if (arrConst.length > 0) {
-    arrConst.forEach((element) => fs.ensureDir(element));
   }
 };
 
