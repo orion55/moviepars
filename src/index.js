@@ -16,8 +16,12 @@ const main = async () => {
   const tmpDir = path.join(appRootPath, 'tmp');
   const outDir = path.join(appRootPath, 'out');
   await createDirs([tmpDir, outDir]);
+
   const html = await getHTML(config.url);
   const movies = scrapMovies(html);
+  if (movies.length === 0) {
+    throw new Error(`На странице ${config.url} фильмы не найдены!`);
+  }
   console.log(movies);
 };
 

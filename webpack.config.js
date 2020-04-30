@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
+const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 
 require('babel-polyfill');
 
@@ -28,6 +29,7 @@ const config = {
         toType: 'file',
       },
     ]),
+    new LodashModuleReplacementPlugin(),
   ],
 };
 
