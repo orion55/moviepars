@@ -3,6 +3,7 @@ import createDirs from './libs/createDirs';
 import logger from './libs/winston';
 import getHTML from './libs/getHTML';
 import scrapMovies from './libs/scrapMovies';
+import filterMovies from './libs/filterMovies';
 
 const path = require('path');
 
@@ -17,12 +18,15 @@ const main = async () => {
   const outDir = path.join(appRootPath, 'out');
   await createDirs([tmpDir, outDir]);
 
+  logger.info(`Загрузка страницы ${config.url}`);
   const html = await getHTML(config.url);
-  const movies = scrapMovies(html);
+
+  let movies = scrapMovies(html);
   if (movies.length === 0) {
     throw new Error(`На странице ${config.url} фильмы не найдены!`);
   }
-  console.log(movies);
+  movies = filterMovies(movies, config);
+  console.table(movies);
 };
 
 main()
