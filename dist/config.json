@@ -1,5 +1,7 @@
 {
-  "url": "https://www.kinopoisk.ru/name/42125/",
+  "type": "file",
+  "url": "https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/",
+  "file": "file.html",
   "excludeRating": 6,
   "excludeCountries": ["СССР", "Россия"]
 }
