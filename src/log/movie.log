@@ -61,3 +61,70 @@
 01.05.2020 15:39:09 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
 01.05.2020 15:42:28 info: Начало работы скрипта
 01.05.2020 15:42:28 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
+01.05.2020 16:17:25 info: Начало работы скрипта
+01.05.2020 16:17:25 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
+01.05.2020 16:17:27 error: ReferenceError: Papa is not defined
+01.05.2020 16:17:42 info: Начало работы скрипта
+01.05.2020 16:17:42 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
+01.05.2020 16:23:54 info: Начало работы скрипта
+01.05.2020 16:23:54 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
+01.05.2020 16:29:32 info: Начало работы скрипта
+01.05.2020 16:29:32 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
+01.05.2020 16:29:33 info: Результаты парсинга экспортированы D:\Sait\moviepars\src\out\out.csv
+01.05.2020 16:31:14 info: Начало работы скрипта
+01.05.2020 16:31:14 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
+01.05.2020 16:31:16 info: Результаты парсинга экспортированы D:\Sait\moviepars\src\out\out.csv
+01.05.2020 18:40:06 info: Начало работы скрипта
+01.05.2020 18:40:06 info: Загрузка страницы https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/
+01.05.2020 18:40:07 info: Результаты парсинга экспортированы D:\Sait\moviepars\src\out\out.csv
+01.05.2020 18:41:37 info: Начало работы скрипта
+01.05.2020 18:41:37 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:41:37 error: TypeError: Cannot read property 'length' of null
+01.05.2020 18:42:41 info: Начало работы скрипта
+01.05.2020 18:42:41 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:42:42 error: TypeError: Cannot read property 'length' of null
+01.05.2020 18:44:15 info: Начало работы скрипта
+01.05.2020 18:44:15 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:44:16 error: Error: На странице https://www.kinopoisk.ru/name/42125/ фильмы не найдены!
+01.05.2020 18:44:40 info: Начало работы скрипта
+01.05.2020 18:44:40 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:44:41 error: Error: На странице https://www.kinopoisk.ru/name/42125/ фильмы не найдены!
+01.05.2020 18:49:49 info: Начало работы скрипта
+01.05.2020 18:49:49 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:49:49 error: Error: На странице https://www.kinopoisk.ru/name/42125/ фильмы не найдены!
+01.05.2020 18:56:59 info: Начало работы скрипта
+01.05.2020 18:56:59 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:57:00 error: TypeError: Cannot read property 'length' of undefined
+01.05.2020 18:57:36 info: Начало работы скрипта
+01.05.2020 18:57:36 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:57:37 error: Error: На странице https://www.kinopoisk.ru/name/42125/ фильмы не найдены!
+01.05.2020 18:58:30 info: Начало работы скрипта
+01.05.2020 18:58:30 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:58:30 error: Error: На странице https://www.kinopoisk.ru/name/42125/ фильмы не найдены!
+01.05.2020 18:58:53 info: Начало работы скрипта
+01.05.2020 18:58:53 info: Загрузка страницы https://www.kinopoisk.ru/name/42125/
+01.05.2020 18:58:53 error: Error: На странице https://www.kinopoisk.ru/name/42125/ фильмы не найдены!
+01.05.2020 20:02:24 info: Начало работы скрипта
+01.05.2020 20:02:24 info: Загрузка страницы...
+01.05.2020 20:03:07 info: Начало работы скрипта
+01.05.2020 20:03:07 info: Загрузка страницы...
+01.05.2020 20:03:07 error: Error: ENOENT: no such file or directory, open 'D:\Sait\moviepars\src\tmp\file.html'
+01.05.2020 20:05:31 info: Начало работы скрипта
+01.05.2020 20:05:31 info: Загрузка страницы...
+01.05.2020 20:06:10 info: Начало работы скрипта
+01.05.2020 20:06:10 info: Загрузка страницы...
+01.05.2020 20:06:32 info: Начало работы скрипта
+01.05.2020 20:06:32 info: Загрузка страницы...
+01.05.2020 20:13:58 info: Начало работы скрипта
+01.05.2020 20:13:58 info: Загрузка страницы...
+01.05.2020 20:13:58 error: Error: ENOENT: no such file or directory, open 'D:\Sait\moviepars\src\tmp\file.html'
+01.05.2020 20:14:09 info: Начало работы скрипта
+01.05.2020 20:14:09 info: Загрузка страницы...
+01.05.2020 20:14:09 error: Error: ENOENT: no such file or directory, open 'D:\Sait\moviepars\src\tmp\file.html'
+01.05.2020 20:14:21 info: Начало работы скрипта
+01.05.2020 20:14:21 info: Загрузка страницы...
+01.05.2020 20:14:21 error: Error: ENOENT: no such file or directory, open 'D:\Sait\moviepars\src\tmp\file.html'
+01.05.2020 20:14:44 info: Начало работы скрипта
+01.05.2020 20:14:44 info: Загрузка страницы...
+01.05.2020 20:17:12 info: Начало работы скрипта
+01.05.2020 20:17:12 info: Загрузка страницы...
