@@ -1,7 +1,9 @@
 {
-  "type": "file",
+  "type": "api",
   "url": "https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/",
-  "file": "file.html",
+  "nameDirector": "Todd Haynes",
   "excludeRating": 6,
-  "excludeCountries": ["СССР", "Россия"]
+  "excludeCountries": ["СССР", "Россия"],
+  "apiKey": "e857df373efe51f57c2d745c2cb07e42",
+  "apiUrl": "https://api.themoviedb.org/3/"
 }

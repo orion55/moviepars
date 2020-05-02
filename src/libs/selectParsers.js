@@ -1,5 +1,5 @@
 import scrapMovies from './parsers/scrapMovies';
-import scrapKinopoisk from './parsers/scrapKinopoisk';
+import scrapApi from './parsers/scrapApi';
 
 const selectParsers = (html, config) => {
   let movies = null;
@@ -8,8 +8,8 @@ const selectParsers = (html, config) => {
     movies = scrapMovies(html);
   }
 
-  if (config.type === 'file') {
-    movies = scrapKinopoisk(html);
+  if (config.type === 'api') {
+    movies = scrapApi(config);
   }
 
   return movies;

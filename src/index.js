@@ -15,17 +15,16 @@ const main = async () => {
   const fullNameConfig = path.join(appRootPath, 'config.json');
   const config = await readConfig(fullNameConfig);
 
-  const inDir = path.join(appRootPath, 'in');
   const tmpDir = path.join(appRootPath, 'tmp');
   const outDir = path.join(appRootPath, 'out');
-  await createDirs({ tmp: [tmpDir, outDir], constant: [inDir] });
+  await createDirs({ tmp: [tmpDir, outDir], constant: [] });
 
   logger.info('Загрузка страницы...');
-  const html = await getHTML(config, inDir);
+  const html = await getHTML(config);
 
-  let movies = selectParsers(html, config);
+  let movies = await selectParsers(html, config);
   if (movies === null || movies.length === 0) {
-    throw new Error(`На странице ${config.url} фильмы не найдены!`);
+    throw new Error('Фильмы не найдены!');
   }
 
   movies = filterMovies(movies, config);
