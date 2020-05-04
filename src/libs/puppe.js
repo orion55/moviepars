@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
     width: 1240,
     height: 680,
   });
-  await page.goto('https://www.kinopoisk.ru/name/42125/');
+  await page.goto('https://rutracker.org/forum/index.php');
   await page.screenshot({ path: 'example.png' });
 
   await browser.close();
