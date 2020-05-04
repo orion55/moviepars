@@ -1,10 +1,10 @@
-import readConfig from './libs/readConfig';
-import createDirs from './libs/createDirs';
-import logger from './libs/winston';
-import getHTML from './libs/getHTML';
-import filterMovies from './libs/filterMovies';
-import selectParsers from './libs/selectParsers';
-import exportCsv from './libs/exportCsv';
+import readConfig from './libs/init/readConfig';
+import createDirs from './libs/init/createDirs';
+import logger from './libs/init/winston';
+import getHTML from './libs/processing/getHTML';
+import filterMovies from './libs/processing/filterMovies';
+import selectParsers from './libs/parsers/selectParsers';
+import exportCsv from './libs/processing/exportCsv';
 
 const path = require('path');
 

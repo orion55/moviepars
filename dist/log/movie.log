@@ -2,3 +2,6 @@
 17.04.2020 13:27:49 error: Error: ENOENT: no such file or directory, open 'D:\Sait\moviepars\dist\config1.json'
 17.04.2020 13:29:13 info: Начало работы скрипта
 01.05.2020 10:46:27 info: Начало работы скрипта
+02.05.2020 21:31:51 info: Начало работы скрипта
+02.05.2020 21:31:51 info: Загрузка страницы...
+02.05.2020 21:31:52 info: Результаты парсинга экспортированы d:\Sait\moviepars\dist\out\out.csv

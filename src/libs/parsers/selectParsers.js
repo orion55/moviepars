@@ -1,5 +1,5 @@
-import scrapMovies from './parsers/scrapMovies';
-import scrapApi from './parsers/scrapApi';
+import scrapMovies from './scrapMovies';
+import scrapApi from './scrapApi';
 
 const selectParsers = (html, config) => {
   let movies = null;

@@ -1,7 +1,7 @@
 {
   "type": "api",
   "url": "https://kino.mail.ru/cinema/selection/2743_filmi_antistress_30_nespeshnih_filmov_dlya_sozertsaniya/",
-  "nameDirector": "Todd Haynes",
+  "nameDirector": "Anatole Litvak",
   "excludeRating": 6,
   "excludeCountries": ["СССР", "Россия"],
   "apiKey": "e857df373efe51f57c2d745c2cb07e42",
