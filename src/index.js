@@ -15,11 +15,9 @@ const main = async () => {
   const fullNameConfig = path.join(appRootPath, 'config.json');
   const config = await readConfig(fullNameConfig);
 
-  const tmpDir = path.join(appRootPath, 'tmp');
   const outDir = path.join(appRootPath, 'out');
-  await createDirs({ tmp: [tmpDir, outDir], constant: [] });
+  await createDirs({ tmp: [outDir], constant: [] });
 
-  logger.info('Загрузка страницы...');
   const html = await getHTML(config);
 
   let movies = await selectParsers(html, config);

@@ -1,7 +1,10 @@
+import logger from '../init/winston';
 const axios = require('axios');
 const _ = require('lodash');
 
 const scrapApi = async (config) => {
+  logger.info(`Поиск по API режисёра ${config.nameDirector}...`);
+
   let res = await axios.get(`${config.apiUrl}search/person`, {
     params: {
       api_key: config.apiKey,
